@@ -1,0 +1,100 @@
+
+*{
+background-color: #ffffff;
+/*background-image: url("class1.jpeg");*/
+}
+
+
+.school{
+    max-width: 50%;
+    margin:auto;
+    box-shadow: 0 0 20px 0 rgba(1,1,1,1);
+ 
+    padding-left: 10%;
+}
+
+
+body{
+    font-weight: bold;
+    
+
+}
+
+ 
+    
+
+.school select{
+    color: blue;
+    background:#73ff00;
+    font-weight: bold;
+    font-style: Georgia;
+    align-content: center;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);  
+    -webkit-appearance: button;
+    outline:none;
+}
+
+option{
+    font-weight: bold;
+    background-color: #73ff00;
+    color: blue;
+}
+
+
+header{
+    max-width: 20%;
+    margin: auto;
+    color: #211b7a; 
+    font-size: 30px;
+    font-weight: bold;
+    font-family:cursive;
+
+
+}
+
+.topnav{
+overflow: hidden;
+padding-left: 20%;
+float: left; 
+font-size: 20px;
+}
+
+.topnav a{
+color: #000000;
+}
+
+.topnav a:hover{
+    color: wheat;
+}
+
+button{
+
+    background-color: yellow;
+    border-radius: 4px;
+    border-width: 1px;
+    color: #f500b4;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: white;
+
+}
+
+input{
+    background-color: whitesmoke;
+}
+
+textarea{
+    background-color: whitesmoke;
+    }
+
+::placeholder {
+    color: red;
+} 
+

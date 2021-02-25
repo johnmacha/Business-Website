@@ -1,0 +1,64 @@
+
+
+
+/*.snap{
+    width:20%;
+    height:auto;
+}*/
+
+#container{
+    width: 100%;
+    overflow:hidden;
+}
+
+#sliderbox{
+    position: relative;
+    width: 3200px;
+    animation-name:slideranime;
+    animation-duration: 20s;
+    margin: 0;
+    max-height:0;
+    animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+    float: left;
+    /*display: flex;*/
+   
+}
+
+
+
+@keyframes slideranime{
+    0%{
+        left: 0px;
+    }
+    20%/*4 secs*/
+    {
+left: 0px;
+    } 
+    25%/*5 secs*/
+    {
+        left: -800px;
+    }
+    45%/*9 secs*/
+    {
+
+    left: -800px;
+     }
+     50%/*10 secs*/
+     {
+         left: -1600px;
+     }
+     70%/*14 secs*/
+     {
+         left: -1600px;
+     }
+     75%
+     {
+         left: -2400px;
+     }
+
+
+}
+
